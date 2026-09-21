@@ -11,7 +11,6 @@ site_string = site_string.replace("#", "/")
 print(site_string)
 
 word = "stroka"
-word = word.rstrip("a")
 word = word + "ing"
 print(word)
 

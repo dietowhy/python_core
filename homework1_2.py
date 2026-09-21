@@ -1,5 +1,6 @@
 # Задание 6
 school = {
+
     "1а": 20,
     "1б": 22,
     "2б": 18,
@@ -11,13 +12,14 @@ school = {
     "9б": 28,
     "10а": 29,
     "10б": 30,
+
 }
 
 print(school)
 
 # Задание 7
-list = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
-second_element = list[1]
+lists_elements = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+second_element = lists_elements[1]
 print(second_element)
 
 # Задание 8
@@ -26,7 +28,7 @@ string2 = "doggy"
 result = string1 in string2
 print(result)
 
-# Задание 9
+# Задание 
 x = "My name is Agent Smith"
 print(x[1])
 print(x[3:16:3]) 
