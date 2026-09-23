@@ -1,7 +1,7 @@
 import random 
 
 tests = [ "test_login", "test_logout", "test_registration", "test_profile", "test_payment", "test_search"]
-results_pull = ["PASS", "FAIL", "SKIP"]
+results_pull = [ "PASS", "FAIL", "SKIP" ]
 
 while True: 
     tests_count = int(input("Введите кол-во тестов:"))

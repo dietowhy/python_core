@@ -8,7 +8,7 @@ characters_list = [
 
 ]
 
-status_pull = ["ACTIVE", "BLOCKED", "INACTIVE"]
+status_pull = [ "ACTIVE", "BLOCKED", "INACTIVE" ]
 
 def generate_login(char_list, lenght):
     login = "".join(random.choices(char_list, k = lenght))
