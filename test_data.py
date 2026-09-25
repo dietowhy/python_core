@@ -30,9 +30,3 @@ def generate_user(number_of_users):
         'status': generate_status(status_pull)
     }
     return user_dict
-
-
-
-
-
-

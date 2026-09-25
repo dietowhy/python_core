@@ -17,6 +17,3 @@ status = get_test_statistics(test_results_list)
 
 for key, value in status.items():
     print(f"{key}: {value}")
-
-
-

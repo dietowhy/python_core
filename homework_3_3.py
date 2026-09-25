@@ -18,5 +18,3 @@ while True:
 
 for results in tests_result:
     print(results)
-
-
