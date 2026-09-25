@@ -6,7 +6,4 @@ for i in range(3):
         print("Logged in successfully.")
         break
     else:
-        print("Access denied!")
-
-
-
+        print("Access blocked!")
