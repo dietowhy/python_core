@@ -1,0 +1,27 @@
+[
+    {
+      "login": "admin",
+      "password": "admin123",
+      "expected_result": "success"
+    },
+    {
+      "login": "user1",
+      "password": "qwerty",
+      "expected_result": "success"
+    },
+    {
+      "login": "user1",
+      "password": "wrong_password",
+      "expected_result": "fail"
+    },
+    {
+      "login": "blocked_user",
+      "password": "secret",
+      "expected_result": "locked"
+    },
+    {
+      "login": "invalid_user",
+      "password": "12345",
+      "expected_result": "fail"
+    }
+  ]
