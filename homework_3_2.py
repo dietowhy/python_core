@@ -8,6 +8,10 @@ def print_report(test_cases, statuses):
 print_report(test_cases, statuses)
 
 fail_count = statuses.count("FAIL")
+pass_count = statuses.count("PASS")
+
+print(f"Успешных тестов (PASS): {pass_count}")
+print(f"Неуспешных тестов (FAIL): {fail_count}")
 
 if fail_count > 0:
     print("Запуск тестов прошел не успешно!")

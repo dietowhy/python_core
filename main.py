@@ -7,7 +7,7 @@ blocked_count = 0
 inactive_count = 0
 
 for i in range(number_of_users):
-    users_list.append(test_data.generate_user(number_of_users))
+    users_list.append(test_data.generate_user())
 
 for user in users_list:
     print(f"Логин: {user['login']} | Возраст: {user['age']} | Статус: {user['status']}")

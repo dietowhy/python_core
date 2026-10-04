@@ -10,23 +10,23 @@ characters_list = [
 
 status_pull = [ "ACTIVE", "BLOCKED", "INACTIVE" ]
 
-def generate_login(char_list, lenght):
-    login = "".join(random.choices(char_list, k = lenght))
+def generate_login(lenght):
+    login = "".join(random.choices(characters_list, k = lenght))
     return login
 
 def generate_age():
     age = random.randint(10, 80)
     return age
 
-def generate_status(status_pull):
+def generate_status():
     status = random.choice(status_pull)
     return status
 
 
-def generate_user(number_of_users):
+def generate_user():
     user_dict = {
-        'login': generate_login(characters_list, 10),
+        'login': generate_login(10),
         'age': generate_age(),
-        'status': generate_status(status_pull)
+        'status': generate_status()
     }
     return user_dict
